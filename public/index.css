@@ -1,0 +1,40 @@
+body {
+	font-family: courier new;
+	margin: 0px;
+	padding: 0px;
+}
+
+#launch_date {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+#clock {
+	font-size: 13px;
+	font-weight: bold;
+	position: absolute;
+	right: 10px;
+	top: 3px;
+}
+
+#coming_soon {
+	font-size: 35px;
+	font-weight: bold;
+	height: 40px;
+	left: 50%;
+	margin-left: -160px;
+	margin-top: -20px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 320px;
+}
+
+#status_bar {
+	border-top: solid 1px #aaa;
+	bottom: 0px;
+	position: absolute;
+	background-color: #ddd;
+	height: 21px;
+	width: 100%;
+}

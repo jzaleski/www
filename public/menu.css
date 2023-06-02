@@ -1,0 +1,129 @@
+/***********************************************************************
+  CSS - GENERAL CONFIGURATION
+  General rules
+***********************************************************************/
+
+#file_menu img {
+  border: 0px;
+}
+
+#file_menu ul li ul {
+    display: none;  /* Needed to display ok in Opera */
+}
+
+#file_menu {
+  font-size: 13px;
+  font-family: Courier New;
+  visibility: hidden;
+}
+
+#file_menu ul {
+  margin: 0px;  /* No indent */
+  padding: 0px;  /* No indent */
+}
+
+#file_menu li {
+  list-style-type: none;  /* No bullets */
+}
+
+#file_menu a {
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+}
+
+/***********************************************************************
+  CSS - MENU BLOCKS
+  General rules for all menu blocks (group of sub items) 
+***********************************************************************/
+
+#file_menu ul {
+  border: 1px solid #000;
+  background-color: #FFF;
+  padding: 1px;
+}
+
+#file_menu ul.menuBlock1 {  /* Menu bar - main menu items */
+  border: 0px;
+  padding: 1px;
+  border-bottom: solid 1px #AAAAAA;
+  background-color: #DDD;
+  overflow: visible;
+}
+
+#file_menu ul.menuBlock2 {  /* Menu bar - main menu items */
+  border: 0px;
+  padding: 1px;
+  border: 1px solid #555;
+}
+
+/***********************************************************************
+  CSS - MENU ITEMS
+  Here, you could assign rules to the menu items at different depths.
+***********************************************************************/
+
+#file_menu a {
+  color: #000;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#file_menu .currentDepth1 {
+  padding-left: 3px;
+  padding-right: 3px;
+  border: solid 1px #DDD;
+}
+
+#file_menu .currentDepth1over {
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: #BBB;
+  border: solid 1px #FFF;
+}
+
+#file_menu .currentDepth1 a {
+  /* STUB */
+}
+
+#file_menu .currentDepth1over a {  /* Text rules */
+  color: #FFF;
+}
+
+#file_menu .currentDepth2 {
+  padding-right: 2px;
+  background-color: #FFF;
+  border: 1px solid #FFF;
+}
+
+#file_menu .currentDepth2over {
+  padding-right: 2px;
+  background-color: #EEE;
+  border: 1px solid #000;
+}
+
+#file_menu .currentDepth2over a {  /* Text rules */
+  color: #000;
+}
+
+#file_menu .currentDepth3 {
+  padding-right: 2px;
+  border: 1px solid #FFF;
+}
+
+#file_menu .currentDepth3over {
+  padding-right: 2px;
+  background-color: #EEE;
+  border: 1px solid #000;
+}
+
+#file_menu .currentDepth4 {
+  padding-right: 2px;
+  border: 1px solid #FFF;
+}
+
+#file_menu .currentDepth4over {
+  padding-right: 2px;
+  background-color: #EEE;
+  border: 1px solid #000;
+}
