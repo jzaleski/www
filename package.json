@@ -1,5 +1,6 @@
 {
   "name": "www",
+  "repository": "https://github.com/jzaleski/www",
   "version": "0.0.1",
   "description": "",
   "type": "module",
