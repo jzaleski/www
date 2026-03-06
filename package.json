@@ -1,11 +1,12 @@
 {
   "name": "www",
+  "type": "module",
   "version": "0.0.1",
   "private": true,
-  "type": "module",
+  "packageManager": "npm@10.9.2",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
     "lint": "npm run lint:fix",
     "lint:check": "eslint",
     "lint:fix": "eslint --fix",
