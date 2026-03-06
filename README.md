@@ -42,7 +42,7 @@ npm run dev
 | `npm run lint:fix`       | Lint and fix files       |
 | `npm run prettier`       | Alias to prettier:fix    |
 | `npm run prettier:check` | Check formatting only    |
-| `npm run prettier:fi     | Format and fix files     |
+| `npm run prettier:fix`   | Format and fix files     |
 | `npm run tsc`            | Type check               |
 | `npm run pre-commit`     | Run all checks + build   |
 
