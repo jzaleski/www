@@ -37,10 +37,12 @@ npm run dev
 | `npm run dev`            | Start development server |
 | `npm run build`          | Build for production     |
 | `npm run start`          | Start production server  |
-| `npm run lint`           | Lint and fix files       |
+| `npm run lint`           | Alias to lint:fix        |
 | `npm run lint:check`     | Check linting only       |
-| `npm run prettier`       | Format and fix files     |
+| `npm run lint:fix`       | Lint and fix files       |
+| `npm run prettier`       | Alias to prettier:fix    |
 | `npm run prettier:check` | Check formatting only    |
+| `npm run prettier:fi     | Format and fix files     |
 | `npm run tsc`            | Type check               |
 | `npm run pre-commit`     | Run all checks + build   |
 
