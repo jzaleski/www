@@ -3,6 +3,7 @@ import tseslint from "typescript-eslint";
 
 export default tseslint.config({
   files: ["**/*.{js,jsx,ts,tsx}"],
+  ignores: ["tmp/**"],
   extends: [nextConfig],
   rules: {
     "no-restricted-syntax": ["error", "FunctionExpression", "FunctionDeclaration"],
@@ -17,5 +18,6 @@ export default tseslint.config({
         caughtErrorsIgnorePattern: "^_",
       },
     ],
+    "react/no-unescaped-entities": "off",
   },
 });

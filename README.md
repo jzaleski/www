@@ -1,6 +1,6 @@
-# www
+# resume
 
-A Next.js personal website built with React 19 and TypeScript.
+A Next.js personal resume website built with React 19 and TypeScript.
 
 ## Tech Stack
 
@@ -51,10 +51,15 @@ npm run dev
 ```
 ├── app/                 # Next.js app directory
 │   ├── components/      # React components
+│   │   ├── Header.tsx
+│   │   ├── ModeSetter.tsx
+│   │   └── ResumeContent.tsx
 │   ├── globals.css      # Global styles
 │   ├── layout.tsx       # Root layout
 │   └── page.tsx         # Home page
 ├── public/              # Static assets
 ├── bin/                 # Utility scripts
-└── eslint.config.js     # ESLint configuration
+├── eslint.config.js     # ESLint configuration
+├── next.config.js       # Next.js configuration
+└── tsconfig.json        # TypeScript configuration
 ```

@@ -24,9 +24,10 @@ npm run pre-commit  # All checks + build
 
 ### File Locations
 
-- Components: `app/components/`
-- Pages: `app/` (Next.js app router)
-- Styles: `app/globals.css`, `app/index.css`
+- Components: `app/components/` (Header.tsx, ModeSetter.tsx, ResumeContent.tsx)
+- Pages: `app/` (Next.js app router - page.tsx, layout.tsx)
+- Styles: `app/globals.css`
+- Config: `next.config.js`, `tsconfig.json`, `eslint.config.js`
 
 ### Commit Workflow
 
